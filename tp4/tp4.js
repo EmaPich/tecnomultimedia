@@ -163,17 +163,17 @@ function mousePressed() {
       estado = 5;
     }
   } else if (estado === 2) {
-    if (colisionBoton(width/2, height/2 +135, 200, 30)) {          //volver a jugar
+    if (colisionBoton(width/2, height/2 +135, 200, 30)) { //volver a jugar
       estado = 1;
       resetearJuego();
-    } else if (colisionBoton(width/2, height/2 + 170, 200, 30)) {  //volver al menu principal
+    } else if (colisionBoton(width/2, height/2 + 170, 200, 30)) { //volver al menu principal
       estado = 0;
     }
   } else if (estado === 3) {
-    if (colisionBoton(width/2, height/2 +135, 200, 30)) {          //volver a jugar
+    if (colisionBoton(width/2, height/2 +135, 200, 30)) { //volver a jugar
       estado = 1;
       resetearJuego();
-    } else if (colisionBoton(width/2, height/2 + 170, 200, 30)) {  //volver al menu principal
+    } else if (colisionBoton(width/2, height/2 + 170, 200, 30)) { //volver al menu principal
       estado = 0;
     }
   } else if (estado === 4) {
