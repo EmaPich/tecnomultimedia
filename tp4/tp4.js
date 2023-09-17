@@ -86,12 +86,12 @@ function draw() {
 function comprobarColisiones() {
   if (dist(posX, posY, 275, 15)<30) { 
     llegoAPrincesa = true;
-    return true; 
+    return true; //si mario toca a la princesa, se gana el juego
   }
   for (let index = 0; index < cantidadBarriles-1; index++) {
     if (barriles[index][0]) {
       if(dist(posX+25, posY+32, barriles[index][1][0]+25, barriles[index][1][1]+25)<30){
-        return true;
+        return true; //si mario es tocado x un barril, se termina el juego
       }
     }
   }
