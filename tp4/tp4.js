@@ -1,4 +1,4 @@
-//
+// https://www.youtube.com/watch?v=Ek2jJABiwwg
 
 const DERECHA = "DERECHA";
 const IZQUIERDA = "IZQUIERDA";
